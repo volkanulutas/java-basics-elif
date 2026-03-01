@@ -11,9 +11,11 @@ public class W2L14_User_Input_01 {
         System.out.println("Lütfen ilk tam sayıyı sayıyı giriniz:");
         int number1 = scanner.nextInt(); // next() -> String, nextFloat()-> Float.
         System.out.println("Lütfen ikinci tam sayıyı sayıyı giriniz:");
-        int number2 = scanner.nextInt();
+        int number2 = scanner.nextInt(); // next line
         int multiply = number1 * number2;
         System.out.println(number1 + " x " + number2 + " = " + multiply);
         scanner.close();
+
+        // TODO: VOLKAN nextInt() enter a basma ornegi
     }
 }
