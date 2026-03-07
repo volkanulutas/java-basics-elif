@@ -27,13 +27,15 @@ public class W2L6_DataType_IntLong {
         long longNumber = 2147483648L;
         System.out.println("Long Tam Sayı: " + longNumber);
         // ********************
-        // Daha küçük aralık: -32,768 32,767 arası
-        short smallerNumber = 12345; // short smallerNumber = 123456;
+        // Daha küçük aralık: -32,768 32,767 vb.
+        short smallerNumber = 12120; // short smallerNumber = 123456;
         System.out.println(
                 "Küçük Sayı: " + smallerNumber); // yapacağımız işlemler küçükse tercih edilebilir memory (hafızayı) etkin kullanmış oluruz.
         // ********************
         // Çok küçük bir aralık:  -127 128 arası
         byte byteNumber = 1;
         System.out.println("Byte number: " + byteNumber);
+        // byte < short < int < long
+        /* byte < short < int < long */
     }
 }

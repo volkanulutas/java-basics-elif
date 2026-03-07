@@ -32,7 +32,7 @@ public class W2L11_Operator_Math {
 
         // Division by zero example.
         try {
-            System.out.println("5/2=" + (5 / 0));
+            System.out.println("Div By Zero: 5/2=" + (5 / 0));
         } catch (Exception ex) {
             System.out.println("Bir sayiyi sıfıra bölemezsin" + ex);
         }
@@ -53,5 +53,10 @@ public class W2L11_Operator_Math {
         int y = 5;
         y++; // y= y+1;
         System.out.println("y: " + y);
+
+        int a=1, b=3;
+        System.out.println("a: "+ (a++)+  " b: " + (b++)); // 1 ve 3 sonraki satirlarda 2 ve 4 olacak
+        System.out.println("a: "+ (++a)+  " b: " + (++b));
+
     }
 }
