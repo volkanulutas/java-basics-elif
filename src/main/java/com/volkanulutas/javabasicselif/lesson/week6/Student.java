@@ -10,7 +10,8 @@ public class Student {
         name=name2;
         this.age=age;
         this.studentId=studentId;
-
+        StudentInformationSystemV2 st= new StudentInformationSystemV2();
+        int i = st.MAX_SIZE;
     }
 
     public String getName() {
