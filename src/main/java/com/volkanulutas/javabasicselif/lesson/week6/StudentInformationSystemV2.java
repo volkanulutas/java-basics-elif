@@ -112,7 +112,7 @@ public class StudentInformationSystemV2 {
                     int deletedIndex=-1;
                     for(int i=0;i<=currentSize;i++) {
 
-                        if (studentList[i].getStudentId() == tobeDeletedId) {
+                        if (studentList[i]!=null && studentList[i].getStudentId() == tobeDeletedId) {
                             deletedIndex=i;
                             for(int j=deletedIndex;j<currentSize+1;j++){
                                 if(currentSize!=deletedIndex){
