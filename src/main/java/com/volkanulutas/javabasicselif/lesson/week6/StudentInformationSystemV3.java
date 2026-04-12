@@ -69,11 +69,9 @@ public class StudentInformationSystemV3 {
 
     }
 
-    public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
-        int choose=5;
-        List <Student> studentList= new ArrayList<>();
-
+    public static void menu( List<Student> studentList) {
+        Scanner scanner = new Scanner(System.in);
+        int choose;
         do {
             System.out.println("Lütfen Seçiniz 1-5 :");
             System.out.println("1-Öğrenci Ekle");
@@ -108,8 +106,6 @@ public class StudentInformationSystemV3 {
             }
         }
         while (choose<=5);
-
-
     }
 
     private static void updateStudent(List<Student> studentList) {
@@ -147,5 +143,12 @@ public class StudentInformationSystemV3 {
         if(!isFound){
         System.out.println("Girdiğiniz id\' li öğrenci bulunamadı.");
         }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        int choose=5;
+        List <Student> studentList= new ArrayList<>();
+        menu( studentList);
     }
 }
