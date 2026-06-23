@@ -3,7 +3,7 @@ package com.volkanulutas.javabasicselif.lesson.week10.typecasting;
 public class W3L6_TypeCasting_Example_03 {
     public static void main(String[] args) {
         // Byte promoted to int
-        byte i = 10; // 00001010 - 10 // 11111111 - ? // 255 tutulamaz mi? // TODO: DURU, VOLKAN
+        byte i = 10; // 00001010 - 10 // 11111111 - ? -> 127 // 255 tutulamaz mi? //  ----- 0 ++++
         int x = i + 5;
         System.out.println("byte converted int -> " + x);
         // Short promoted to int

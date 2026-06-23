@@ -5,12 +5,12 @@ public class W3L1_WideningTypeCasting {
         int i = 10;
         // Wideing TypeCasting (Automatic Casting)
         // from int to long
-        long l = i;
+        long L = i;
         // Wideing TypeCasting (Automatic Casting)
         // from int to double
         double d = i;
         System.out.println("Integer: " + i);
-        System.out.println("Long: " + l);
+        System.out.println("Long: " + L);
         System.out.println("Double: " + d);
     }
 }
